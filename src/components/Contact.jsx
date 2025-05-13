@@ -46,26 +46,6 @@ const Contact = () => {
         >
           <ul className="flex flex-wrap justify-center gap-4 md:gap-6">
             <li>
-              <a href="#" className="text-gray-300 hover:text-white hover:underline transition-colors">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-300 hover:text-white hover:underline transition-colors">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-300 hover:text-white hover:underline transition-colors">
-                Experience
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-300 hover:text-white hover:underline transition-colors">
-                Projects
-              </a>
-            </li>
-            <li>
               <a 
                 href={myResume}
                 target="_blank"
