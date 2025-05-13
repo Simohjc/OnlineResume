@@ -2,6 +2,7 @@ import { SiCreativetechnology } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
+import myResume from "../assets/resume.pdf";
 
 
 
