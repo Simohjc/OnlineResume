@@ -10,9 +10,21 @@ import myResume from "../assets/resume.pdf";
 const navbar = () => {
   return (
   <nav className="mb-20 flex items-center justify-between py-5">
-    <motion.div   whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.95 }}
-                  onHoverStart={() => console.log('hover started!')} className="flex flex-shrink-0 items-center">
+        <motion.div     
+                animate={{
+                scale: [1, 2, 1, 1, 1],
+                rotate: [0, 0, 180, 180, 0],
+                borderRadius: ["0%", "0%", "20%", "20%", "0%"],
+                 }}
+                transition={{
+                duration: 2,
+                ease: "easeInOut",
+                times: [0, 0.9, 0.9, 0.8, 2],
+                repeat: Infinity,
+                repeatDelay: 2,
+                }}
+                  className="flex flex-shrink-0 items-center"
+      >
       <SiCreativetechnology   className="h-30 w-35" /><h1 className="text-2xl">ME</h1>
     </motion.div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
