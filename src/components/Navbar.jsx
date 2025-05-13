@@ -15,6 +15,15 @@ const navbar = () => {
       <SiCreativetechnology   className="h-30 w-35" /><h1 className="text-2xl">ME</h1>
     </motion.div>
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+            <a 
+                href={myResume}
+                target="_blank"
+                rel="noopener noreferrer" 
+                download="Mohamed_El_Khair_Resume.pdf" 
+                className="text-gray-300 hover:text-blue-400  hover:underline transition-colors"
+              >
+                Resume
+              </a>
       <a 
            href="https://github.com/Simohjc" 
             target="_blank" 
