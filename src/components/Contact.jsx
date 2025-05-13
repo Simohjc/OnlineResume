@@ -31,7 +31,7 @@ const Contact = () => {
               transition={{ duration: 2 }}
               whileInView={{ opacity: 1, x: 0 }}
         >
-           <a href="Hero.jsx" className="hover:text-blue-400 transition-colors">
+           <a href="#" className="hover:text-blue-400 transition-colors">
                  Mohamed El Khair
            </a>
         </motion.div>
